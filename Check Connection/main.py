@@ -7,7 +7,7 @@ password = 'nasional123'
 server = 'localhost'
 database = 'Local'
 
-###testing koneksi dengan server apakah berhasil atau tida
+###testing koneksi dengan server apakah berhasil atau tidak
 try:
     DB_Connect = mysql.connector.connect(user=username, password=password, host=server, database=database)
 
